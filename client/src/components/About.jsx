@@ -162,7 +162,12 @@ const About = () => {
         {/* Social Icons */}
         <div className="flex space-x-5 mb-8">
           {socialLinks.map((link, idx) => (
-            <a key={idx} href={link.url} target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-300">
+            <a
+              key={idx} href={link.url} 
+              target="{link.url.includes('mailto') ? '_self' :  '_blank'}"
+              rel="noopener noreferrer"
+              className="hover:scale-110 transition-transform duration-300"
+            >
               <img src={link.img} alt="social" className="w-9 h-9 rounded-full shadow-lg border border-slate-700 p-1 bg-slate-800" />
             </a>
           ))}
