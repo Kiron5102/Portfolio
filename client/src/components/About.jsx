@@ -79,7 +79,7 @@ const About = () => {
               ))}
             </div>
             <a
-              href="https://drive.google.com/file/d/1QtIyyUkisDW7J_SMbQSFS_1SoElyU7Ua/view?usp=sharing"
+              href="https://drive.google.com/file/d/1PvHOhfnfgLfZblVnRcViOtAgqsnpRDwR/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold rounded-full hover:shadow-[0_0_15px_rgba(34,211,238,0.4)] transition-all"
@@ -118,7 +118,7 @@ const About = () => {
               ))}
             </div>
             <a
-              href="https://drive.google.com/file/d/1QtIyyUkisDW7J_SMbQSFS_1SoElyU7Ua/view?usp=sharing"
+              href="https://drive.google.com/file/d/1PvHOhfnfgLfZblVnRcViOtAgqsnpRDwR/view?usp=sharing"
               className="mt-auto block w-full text-center py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold rounded-xl shadow-lg"
             >
               Download CV
@@ -187,4 +187,4 @@ const About = () => {
   );
 };
 
-export default About; 
+export default About;
